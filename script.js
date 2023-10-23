@@ -6,3 +6,10 @@ gsap.from('.img-6', 1.2,{opacity:0, y:150, delay:1.2})
 gsap.from('.img-7', 1.2,{opacity:0, y:-80, delay:4})
 gsap.from('h1', 1.2,{opacity:0, y:-150, delay:4.2})
 gsap.from('h2', 1.2,{opacity:0, y:-150, delay:4.5})
+
+const menu = document.querySelector('.menu');
+const toggle = document.getElementById('toggle');
+
+toggle.onclick = function(){
+    menu.classList.toggle('active');
+}
